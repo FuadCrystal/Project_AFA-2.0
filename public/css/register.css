@@ -1,0 +1,98 @@
+/* resources/css/custom.css */
+
+/* Mengatur latar belakang dan tata letak utama form */
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+}
+
+/* Form Container */
+form {
+    background-color: #e5e7eb; /* Warna abu-abu yang serupa dengan login */
+    border: 2px solid #3b82f6; /* Border biru */
+    border-radius: 10px;
+    padding: 2rem;
+    width: 24rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header & Logo */
+.text-center h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-center h1 span {
+    color: #dc2626; /* Warna merah untuk elemen "AFA" */
+}
+
+.text-center img {
+    margin: 1rem 0;
+    width: 70px;
+    height: 50px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db; /* Warna border abu-abu muda */
+    border-radius: 5px;
+    margin-top: 0.25rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3b82f6; /* Fokus berwarna biru */
+}
+
+/* Tombol Register */
+button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc2626; /* Merah untuk tombol utama */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #b91c1c; /* Merah lebih gelap saat hover */
+}
+
+/* Teks tambahan di bawah form */
+.text-center span {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.text-center a {
+    color: #3b82f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Error Message */
+.text-red-500 ul {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #fef2f2;
+    color: #dc2626;
+}

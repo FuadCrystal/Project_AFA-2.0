@@ -1,0 +1,20 @@
+body {
+    background-image: url('../images/background.jpg'); /* Ganti dengan path ke gambar latar belakang */
+    background-size: cover; /* Untuk menutupi seluruh area */
+    background-position: center; /* Agar gambar berada di tengah */
+}
+
+/* Base dropdown menu styling */
+.dropdown-menu {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: none; /* Initially hidden */
+}
+
+/* Show the dropdown menu with animation */
+.dropdown-menu.show {
+    display: block; /* Show when active */
+    opacity: 1;
+    transform: scale(1); /* Grows to full size */
+}
